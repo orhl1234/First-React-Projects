@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
+import './NoteApp.css'
 
 function NotesApp() {
   const [notes, setNotes] = useState(() => {
