@@ -86,7 +86,7 @@ function Expanse() {
                 <label htmlFor="amount">Amount</label>
                 <input id="amount" type="number" onChange={(event) => setAmount(event.target.value)} />
                 <br /><br />
-                <label htmlFor="date">Date</label>
+                <label htmlFor="date">Year</label>
                 <input id="date" type="text" onChange={(event) => setDate(event.target.value)} />
                 <br /><br />
                 <input onClick={AddNewExpanse} type="submit" value="Enter expanse"></input>
